@@ -2,14 +2,17 @@
   "name": "understanding-typescript-jp",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "src/app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "lite-server"
+    "start": "lite-server",
+    "watch": "tsc --watch"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "lite-server": "^2.5.4"
+    "lite-server": "^2.5.4",
+    "prettier": "^2.0.5",
+    "typescript": "^3.9.7"
   }
 }
