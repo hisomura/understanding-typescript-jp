@@ -5,14 +5,20 @@
   "main": "src/app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "lite-server",
-    "watch": "tsc --watch"
+    "start": "webpack-dev-server",
+    "watch": "tsc --watch",
+    "build": "webpack --config webpack.config.prod.js"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "clean-webpack-plugin": "^3.0.0",
     "lite-server": "^2.5.4",
     "prettier": "^2.0.5",
-    "typescript": "^3.9.7"
+    "ts-loader": "^8.0.2",
+    "typescript": "^3.9.7",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
   }
 }
