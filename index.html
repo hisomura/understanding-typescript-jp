@@ -5,8 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>プロジェクト管理</title>
-    <link rel="stylesheet" href="dist/app.css" />
-    <script type="module" src="dist/bundle.js"></script>
+    <script src="dist/bundle.js" defer></script>
   </head>
   <body>
     <template id="project-input">
@@ -42,5 +41,8 @@
       </section>
     </template>
     <div id="app"></div>
+  <script>
+    var GLOBAL = 'グローバル変数'
+  </script>
   </body>
 </html>
